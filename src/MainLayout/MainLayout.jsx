@@ -5,7 +5,7 @@ import Footer from '../Components/Footer';
 const MainLayout = () => {
     return (
         <div>
-            <div className='static'>
+            <div className='sticky top-0 z-[1000]'>
             <Navbar></Navbar>
             </div>
             <Outlet></Outlet>

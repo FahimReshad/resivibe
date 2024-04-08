@@ -4,11 +4,11 @@
       "estate_title": "Spacious Family Home in Suburbia",
       "segment_name": "Single Family Home",
       "description": "Large family home located in a quiet suburban neighborhood, perfect for raising a family.",
-      "price": "$450,000",
-      "status": "sale",
+      "price": "$450,000/year",
+      "status": "For Sale",
       "area": "2800 sq ft",
       "location": "Denver, Colorado",
-      "facilities": ["Backyard", "Study Room", "Playground"],
+      "facilities": ["Backyard", "StudyRoom", "Playground"],
       "image": "https://i.ibb.co/C9DVTK5/spacious-family-home-in-upmarket-suburb-img-20240227-wa0042-jpg.jpg"
     },
     {
@@ -16,8 +16,8 @@
         "estate_title": "Modern Townhouse in Downtown",
         "segment_name": "Townhouse",
         "description": "Sleek and modern townhouse located in the heart of downtown, offering convenience and style.",
-        "price": "$750,000",
-        "status": "sale",
+        "price": "$750,000/year",
+        "status": "For Rent",
         "area": "2000 sq ft",
         "location": "San Francisco, California",
         "facilities": ["Roof Deck", "Balcony", "Garage"],
@@ -28,26 +28,24 @@
         "estate_title": "Luxury High-Rise Apartment",
         "segment_name": "Apartment",
         "description": "Elegant high-rise apartment offering breathtaking city views and luxurious amenities.",
-        "price": "$1,200,000",
-        "status": "sale",
+        "price": "$4,200,00/year",
+        "status": "For Sale",
         "area": "1800 sq ft",
         "location": "New York City, New York",
-        "facilities": ["Concierge Service", "Gym", "Swimming Pool"],
-        "image": "https://example.com/highrise_apartment.jpg",
-        "view_property_button": "https://example.com/highrise_apartment"
+        "facilities": ["Balcony", "Gym", "Swimming"],
+        "image": "https://i.ibb.co/Jvy7mck/Zaha-Hadid-Mexico-1.jpg"
       },
       {
         "id": 4,
         "estate_title": "Cozy Studio Apartment",
         "segment_name": "Apartment",
         "description": "Compact studio apartment perfect for young professionals or students, located in a vibrant neighborhood.",
-        "price": "$300,000",
-        "status": "sale",
+        "price": "$300,000/year",
+        "status": "For Sale",
         "area": "600 sq ft",
         "location": "Seattle, Washington",
-        "facilities": ["Balcony", "Laundry Facilities", "Fitness Center"],
-        "image": "https://example.com/studio_apartment.jpg",
-        "view_property_button": "https://example.com/studio_apartment"
+        "facilities": ["Balcony", "Laundry", "FitnessCenter"],
+        "image": "https://i.ibb.co/6DgCkbr/3d97f55461a8df8cc3dbb7724fc6e70f.jpg"
       },
       {
         "id": 5,
@@ -55,25 +53,23 @@
         "segment_name": "Student Housing",
         "description": "Purpose-built student dormitory offering affordable accommodation close to campus.",
         "price": "$800/month",
-        "status": "rent",
+        "status": "For Rent",
         "area": "Shared",
         "location": "Los Angeles, California",
-        "facilities": ["Study Rooms", "Common Areas", "Laundry Facilities"],
-        "image": "https://example.com/student_dorm.jpg",
-        "view_property_button": "https://example.com/student_dorm"
+        "facilities": ["StudyRooms", "Sun Deck", "Laundry"],
+        "image": "https://i.ibb.co/WkHNnVG/Studio-Penthouse-Bed-and-Desk-scaled.jpg"
       },
       {
         "id": 6,
         "estate_title": "Retirement Village for Active Seniors",
         "segment_name": "Senior Living Community",
         "description": "Vibrant retirement community designed for active seniors, offering a range of amenities and activities.",
-        "price": "Varies",
-        "status": "sale",
+        "price": "$240,000/year",
+        "status": "For Sale",
         "area": "Varies",
         "location": "Scottsdale, Arizona",
-        "facilities": ["Clubhouse", "Golf Course", "Fitness Classes"],
-        "image": "https://example.com/retirement_village.jpg",
-        "view_property_button": "https://example.com/retirement_village"
+        "facilities": ["Clubhouse", "GolfCourse", "FitnessClasses"],
+        "image": "https://i.ibb.co/Twtqp08/usgbc-green-retirement-56a45f4b5f9b58b7d0d6a3ff.jpg"
       },
       {
         "id": 7,
@@ -81,12 +77,11 @@
         "segment_name": "Vacation Rental",
         "description": "Luxurious beachfront villa offering stunning ocean views and private access to the beach.",
         "price": "$500/night",
-        "status": "rent",
+        "status": "For Rent",
         "area": "3000 sq ft",
         "location": "Maui, Hawaii",
-        "facilities": ["Private Pool", "Outdoor Kitchen", "Sun Deck"],
-        "image": "https://example.com/beachfront_villa.jpg",
-        "view_property_button": "https://example.com/beachfront_villa"
+        "facilities": ["Pool", "Playground", "Sun Deck"],
+        "image": "https://i.ibb.co/5TY5jnz/25solemare-1200.jpg"
       },
       {
         "id": 8,
@@ -94,24 +89,22 @@
         "segment_name": "Vacation Rental",
         "description": "Cozy cabin nestled in the mountains, offering a peaceful retreat from city life.",
         "price": "$300/night",
-        "status": "rent",
+        "status": "For Rent",
         "area": "1200 sq ft",
         "location": "Aspen, Colorado",
-        "facilities": ["Hot Tub", "Fire Pit", "Hiking Trails"],
-        "image": "https://example.com/mountain_cabin.jpg",
-        "view_property_button": "https://example.com/mountain_cabin"
+        "facilities": ["Hot Tub", "Fire Pit", "HikingTrails"],
+        "image": "https://i.ibb.co/991pY2K/1.jpg"
       },
       {
         "id": 9,
         "estate_title": "Traditional Colonial House",
         "segment_name": "Single Family Home",
         "description": "Classic colonial-style house with spacious rooms and a large backyard, perfect for family gatherings.",
-        "price": "$550,000",
-        "status": "sale",
+        "price": "$550,000/year",
+        "status": "For Sale",
         "area": "3200 sq ft",
         "location": "Boston, Massachusetts",
         "facilities": ["Garden", "Fireplace", "Deck"],
-        "image": "https://example.com/colonial_house.jpg",
-        "view_property_button": "https://example.com/colonial_house"
+        "image": "https://i.ibb.co/5jwcWQt/american-colonial-style-architecture-5094947-hero-cf7de7e2627c4e07895a964cc0e6dc10.jpg"
       }
 ]
