@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-key */
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 const EstateSection = ({ estateCategory }) => {
   const { id, image, price, estate_title, location, status, facilities } =
     estateCategory;
@@ -33,7 +34,7 @@ const EstateSection = ({ estateCategory }) => {
           {location}
         </p>
         <ul className="flex gap-2 justify-center items-start font-medium md:font-semibold bg-base-200 border py-4 px-1 border-t-2 border-b-2 border-l-0 border-r-0 lg:my-4">
-          <p className="font-poppins">Facilies:</p>
+          <p className="font-poppins">Facilities:</p>
           {facilities.map((facility) => {
             return (
               <li className="border border-green-600 rounded-2xl w-full text-center">
@@ -44,9 +45,9 @@ const EstateSection = ({ estateCategory }) => {
           })}
         </ul>
         <div className="w-full">
-          <button className="btn w-full bg-red-400 text-white font-poppins">
+          <Link to={`/viewProperty/${id}`}><button className="btn w-full bg-red-400 text-white font-bold font-poppins">
             View Property
-          </button>
+          </button></Link>
         </div>
       </div>
     </div>

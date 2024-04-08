@@ -9,7 +9,13 @@
       "area": "2800 sq ft",
       "location": "Denver, Colorado",
       "facilities": ["Backyard", "StudyRoom", "Playground"],
-      "image": "https://i.ibb.co/C9DVTK5/spacious-family-home-in-upmarket-suburb-img-20240227-wa0042-jpg.jpg"
+      "image": "https://i.ibb.co/C9DVTK5/spacious-family-home-in-upmarket-suburb-img-20240227-wa0042-jpg.jpg",
+      "image2": "https://i.ibb.co/X7DMf64/spacious-family-home-in-upmarket-suburb-img-20240227-wa0114-jpg.jpg",
+      "image3": "https://i.ibb.co/NprwZqm/images-q-tbn-ANd9-Gc-SXdx-N4bf-Xeo-Wq-Zng-Zwew-RO5z-Xfn-CH-q-B3-U1-MXoib5-LIW1u7-K16-O3-Js-Qk-TA-LGc.jpg",
+      "Beds": 3,
+      "Baths": 2,
+      "Garages": 2
+      
     },
     {
         "id": 2,
@@ -21,7 +27,12 @@
         "area": "2000 sq ft",
         "location": "San Francisco, California",
         "facilities": ["Roof Deck", "Balcony", "Garage"],
-        "image": "https://i.ibb.co/3SGkDJT/modern-townhouse-design-house-168058-939.jpg"
+        "image": "https://i.ibb.co/3SGkDJT/modern-townhouse-design-house-168058-939.jpg",
+        "image2": "https://i.ibb.co/NrTxwLr/aa5e0cf200aaed6146804becc10bc608-full.jpg",
+        "image3": "https://i.ibb.co/N1rDYsR/MRD11991074-2.jpg",
+        "Beds": 4,
+        "Baths": 4,
+        "Garages": 3
       },
       {
         "id": 3,
@@ -33,7 +44,12 @@
         "area": "1800 sq ft",
         "location": "New York City, New York",
         "facilities": ["Balcony", "Gym", "Swimming"],
-        "image": "https://i.ibb.co/Jvy7mck/Zaha-Hadid-Mexico-1.jpg"
+        "image": "https://i.ibb.co/Jvy7mck/Zaha-Hadid-Mexico-1.jpg",
+        "image2": "https://i.ibb.co/dc0RB8N/Lux-Expose-PLG-NYC-12.jpg",
+        "image3": "https://i.ibb.co/Z6CGv1G/images-q-tbn-ANd9-Gc-Qtgy-PRg6pief-Tx7ifhtg-Vi4xs-IWXQ3-A9-Qxc-EDMo-U9-BXg-s.jpg",
+        "Beds": 5,
+        "Baths": 5,
+        "Garages": 2
       },
       {
         "id": 4,
@@ -45,7 +61,12 @@
         "area": "600 sq ft",
         "location": "Seattle, Washington",
         "facilities": ["Balcony", "Laundry", "FitnessCenter"],
-        "image": "https://i.ibb.co/6DgCkbr/3d97f55461a8df8cc3dbb7724fc6e70f.jpg"
+        "image": "https://i.ibb.co/6DgCkbr/3d97f55461a8df8cc3dbb7724fc6e70f.jpg",
+        "image2": "https://i.ibb.co/HxytTLG/fffdsgdfhd-scaled.jpg",
+        "image3": "https://i.ibb.co/XLkXSBj/3c4f82792987a3ae3f43a529b5230807.jpg",
+        "Beds": 3,
+        "Baths": 2,
+        "Garages": 1
       },
       {
         "id": 5,
@@ -57,7 +78,12 @@
         "area": "Shared",
         "location": "Los Angeles, California",
         "facilities": ["StudyRooms", "Sun Deck", "Laundry"],
-        "image": "https://i.ibb.co/WkHNnVG/Studio-Penthouse-Bed-and-Desk-scaled.jpg"
+        "image": "https://i.ibb.co/WkHNnVG/Studio-Penthouse-Bed-and-Desk-scaled.jpg",
+        "image2": "https://i.ibb.co/G0nD2T1/Wroclaw-hotel-kitchen2-resized-1.jpg",
+        "image3": "https://i.ibb.co/ChVTT3H/Potsdam-studio-room1.jpg",
+        "Beds": 1,
+        "Baths": 1,
+        "Garages": 2
       },
       {
         "id": 6,
@@ -69,7 +95,12 @@
         "area": "Varies",
         "location": "Scottsdale, Arizona",
         "facilities": ["Clubhouse", "GolfCourse", "FitnessClasses"],
-        "image": "https://i.ibb.co/Twtqp08/usgbc-green-retirement-56a45f4b5f9b58b7d0d6a3ff.jpg"
+        "image": "https://i.ibb.co/Twtqp08/usgbc-green-retirement-56a45f4b5f9b58b7d0d6a3ff.jpg",
+        "image2": "https://i.ibb.co/6g4qRmt/memory-care-home-min.jpg",
+        "image3": "https://i.ibb.co/4FHdbWN/Why-Are-All-Inclusive-Retirement-Communities-Perfect-For-Active-Seniors.jpg",
+        "Beds": 3,
+        "Baths": 2,
+        "Garages": 2
       },
       {
         "id": 7,
@@ -81,7 +112,12 @@
         "area": "3000 sq ft",
         "location": "Maui, Hawaii",
         "facilities": ["Pool", "Playground", "Sun Deck"],
-        "image": "https://i.ibb.co/5TY5jnz/25solemare-1200.jpg"
+        "image": "https://i.ibb.co/5TY5jnz/25solemare-1200.jpg",
+        "image2": "https://i.ibb.co/xLPmF0W/images-q-tbn-ANd9-Gc-Sj-TXv-LFQCGBe-2-Xo0-Sa-Ti-0-Pv-Tn-BQgp-QRTj1-RJJ2-JLWX2o8mfd96j-Vst-Ylx3-Eq-v.jpg",
+        "image3": "https://i.ibb.co/g62rwtN/Nevaehfrombeach-1200.jpg]",
+        "Beds": 3,
+        "Baths": 3,
+        "Garages": 1
       },
       {
         "id": 8,
@@ -93,7 +129,12 @@
         "area": "1200 sq ft",
         "location": "Aspen, Colorado",
         "facilities": ["Hot Tub", "Fire Pit", "HikingTrails"],
-        "image": "https://i.ibb.co/991pY2K/1.jpg"
+        "image": "https://i.ibb.co/991pY2K/1.jpg",
+        "image2": "https://i.ibb.co/27rfHqQ/1-DJI-0120.jpg",
+        "image3": "https://i.ibb.co/LQwSght/IG2-The-airy-interior-of-a-cabin-rental-in-northern-Georgia.jpg",
+        "Beds": 4,
+        "Baths": 4,
+        "Garages": 2
       },
       {
         "id": 9,
@@ -105,6 +146,11 @@
         "area": "3200 sq ft",
         "location": "Boston, Massachusetts",
         "facilities": ["Garden", "Fireplace", "Deck"],
-        "image": "https://i.ibb.co/5jwcWQt/american-colonial-style-architecture-5094947-hero-cf7de7e2627c4e07895a964cc0e6dc10.jpg"
+        "image": "https://i.ibb.co/5jwcWQt/american-colonial-style-architecture-5094947-hero-cf7de7e2627c4e07895a964cc0e6dc10.jpg",
+        "image2": "https://i.ibb.co/Tqh9hst/images-q-tbn-ANd9-Gc-Sn7k-WXtk-ESqy-JKn4q4-Rg-PALKa-Uun-H0-ALSEw-Hacrm-Mag-s.jpg",
+        "image3": "https://i.ibb.co/mvK8PwF/colonialnyi-stil-v-interiere-pufikhomes-10.jpg",
+        "Beds": 3,
+        "Baths": 2,
+        "Garages": 2
       }
 ]

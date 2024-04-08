@@ -5,6 +5,7 @@ import UpdateProfile from "../Pages/UpdateProfile";
 import UserProfile from "../Pages/UserProfile";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
+import ViewProperty from "../Pages/ViewProperty";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,11 @@ const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>
+            },
+            {
+                path: '/viewProperty/:id',
+                element: <ViewProperty></ViewProperty>,
+                loader: () => fetch('/estate.json')
             }
         ]
     }
