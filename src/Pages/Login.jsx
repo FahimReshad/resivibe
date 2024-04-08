@@ -35,7 +35,6 @@ const Login = () => {
       toast.success('You login successfully')
     })
     .catch(error => console.error(error))
-    toast.error('This email does not match the registered email')
   }
 
 
@@ -48,7 +47,6 @@ const Login = () => {
     })
     .catch(error => {
       console.log(error)
-      toast.error('This email does not match the registered email')
     })
   }
 

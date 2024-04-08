@@ -20,9 +20,6 @@ const Register = () => {
       navigate('/')
       toast.success('Registration successfully')
     })
-    .catch(error => {console.log(error)
-    toast.error('This email is already registered')
-    })
   };
 
   // const handleRegister = e => {
