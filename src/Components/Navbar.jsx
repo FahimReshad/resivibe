@@ -1,6 +1,17 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import { AuthContext } from "../Provider/AuthProvider";
+import { toast } from 'react-toastify';
 const Navbar = () => {
+
+  const {user, logOut} = useContext(AuthContext)
+
+  const handleSignOut = () => {
+    logOut()
+    .then (() => toast.success('Logged Out successfully'))
+    .catch(error => console.error(error))
+  }
+
   const navLinks = (
     <>
       {
@@ -100,12 +111,17 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-4">
-        <Link
+        {
+          user ? <>
+          <a onClick={handleSignOut} className="btn btn-error text-white font-poppins font-semibold px-6">logout</a>
+          </>
+          : <Link
           to="/login"
           className="btn btn-error text-white font-poppins font-semibold px-6"
         >
           Login
         </Link>
+        }
         <Link
           to="/register"
           className="btn btn-outline btn-error font-poppins font-semibold"
