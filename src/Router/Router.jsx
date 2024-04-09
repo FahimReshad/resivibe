@@ -6,11 +6,14 @@ import UserProfile from "../Pages/UserProfile";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import ViewProperty from "../Pages/ViewProperty";
+import PrivateRoute from "./PrivateRoute";
+import ErrorPages from "../Pages/ErrorPages";
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout></MainLayout>,
+        errorElement: <ErrorPages></ErrorPages>,
         children: [
             {
                 path: '/',
@@ -35,7 +38,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/viewProperty/:id',
-                element: <ViewProperty></ViewProperty>,
+                element: <PrivateRoute><ViewProperty></ViewProperty></PrivateRoute>,
                 loader: () => fetch('/estate.json')
             }
         ]

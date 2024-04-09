@@ -13,12 +13,25 @@ const Register = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
+
     const {email, password} = data
+    if(password.length<6){
+      toast.error('Password should be at least 6 character or longer');
+      return;
+    }
+    else if(!/[A-Z]/.test(password)){
+      toast.error('Your password should have at least one UpperCase Characters');
+      return;
+    }
+    else if(!/[a-z]/.test(password)){
+      toast.error('Your password should have at least one LowerCase Characters');
+      return;
+    }
     createUser(email, password)
     .then(result => {
       console.log(result)
       navigate('/')
-      toast.success('Registration successfully')
+      toast.success('Registration successfully')   
     })
   };
 
