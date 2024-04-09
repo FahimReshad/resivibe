@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";

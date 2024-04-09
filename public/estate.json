@@ -14,7 +14,13 @@
       "image3": "https://i.ibb.co/NprwZqm/images-q-tbn-ANd9-Gc-SXdx-N4bf-Xeo-Wq-Zng-Zwew-RO5z-Xfn-CH-q-B3-U1-MXoib5-LIW1u7-K16-O3-Js-Qk-TA-LGc.jpg",
       "Beds": 3,
       "Baths": 2,
-      "Garages": 2
+      "Garages": 2,
+      "Deposit": "28%",
+      "PoolSize": "300 Sq Ft",
+      "AdditionalRooms": "Guest Bath",
+      "LastRemodelYear": 2016,
+      "Amenities": "Clubhouse",
+      "Equipment": "Grill - Gas"
     },
     {
         "id": 2,
@@ -31,7 +37,13 @@
         "image3": "https://i.ibb.co/N1rDYsR/MRD11991074-2.jpg",
         "Beds": 4,
         "Baths": 4,
-        "Garages": 3
+        "Garages": 3,
+        "Deposit": "28%",
+        "PoolSize": "300 Sq Ft",
+        "AdditionalRooms": "Guest Bath",
+        "LastRemodelYear": 2010,
+        "Amenities": "Clubhouse",
+        "Equipment": "Grill - Gas"
       },
       {
         "id": 3,
@@ -48,7 +60,13 @@
         "image3": "https://i.ibb.co/Z6CGv1G/images-q-tbn-ANd9-Gc-Qtgy-PRg6pief-Tx7ifhtg-Vi4xs-IWXQ3-A9-Qxc-EDMo-U9-BXg-s.jpg",
         "Beds": 5,
         "Baths": 5,
-        "Garages": 2
+        "Garages": 2,
+        "Deposit": "18%",
+        "PoolSize": "400 Sq Ft",
+        "AdditionalRooms": "Guest Bath",
+        "LastRemodelYear": 2002,
+        "Amenities": "Clubhouse",
+        "Equipment": "Grill - Gas"
       },
       {
         "id": 4,
@@ -65,7 +83,13 @@
         "image3": "https://i.ibb.co/XLkXSBj/3c4f82792987a3ae3f43a529b5230807.jpg",
         "Beds": 3,
         "Baths": 2,
-        "Garages": 1
+        "Garages": 1,
+        "Deposit": "22%",
+        "PoolSize": "400 Sq Ft",
+        "AdditionalRooms": "Guest Bath",
+        "LastRemodelYear": 2010,
+        "Amenities": "Clubhouse",
+        "Equipment": "Grill - Gas"
       },
       {
         "id": 5,
@@ -82,7 +106,13 @@
         "image3": "https://i.ibb.co/ChVTT3H/Potsdam-studio-room1.jpg",
         "Beds": 1,
         "Baths": 1,
-        "Garages": 2
+        "Garages": 2,
+        "Deposit": "8%",
+        "PoolSize": "250 Sq Ft",
+        "AdditionalRooms": "Guest Bath",
+        "LastRemodelYear": 2005,
+        "Amenities": "Clubhouse",
+        "Equipment": "Grill - Gas"
       },
       {
         "id": 6,
@@ -99,7 +129,13 @@
         "image3": "https://i.ibb.co/4FHdbWN/Why-Are-All-Inclusive-Retirement-Communities-Perfect-For-Active-Seniors.jpg",
         "Beds": 3,
         "Baths": 2,
-        "Garages": 2
+        "Garages": 2,
+        "Deposit": "26%",
+        "PoolSize": "300 Sq Ft",
+        "AdditionalRooms": "Guest Bath",
+        "LastRemodelYear": 2010,
+        "Amenities": "Clubhouse",
+        "Equipment": "Grill - Gas"
       },
       {
         "id": 7,
@@ -116,7 +152,13 @@
         "image3": "https://i.ibb.co/g62rwtN/Nevaehfrombeach-1200.jpg]",
         "Beds": 3,
         "Baths": 3,
-        "Garages": 1
+        "Garages": 1,
+        "Deposit": "20%",
+        "PoolSize": "200 Sq Ft",
+        "AdditionalRooms": "Guest Bath",
+        "LastRemodelYear": 2001,
+        "Amenities": "Clubhouse",
+        "Equipment": "Grill - Gas"
       },
       {
         "id": 8,
@@ -133,7 +175,13 @@
         "image3": "https://i.ibb.co/LQwSght/IG2-The-airy-interior-of-a-cabin-rental-in-northern-Georgia.jpg",
         "Beds": 4,
         "Baths": 4,
-        "Garages": 2
+        "Garages": 2,
+        "Deposit": "28%",
+        "PoolSize": "300 Sq Ft",
+        "AdditionalRooms": "Guest Bath",
+        "LastRemodelYear": 2010,
+        "Amenities": "Clubhouse",
+        "Equipment": "Grill - Gas"
       },
       {
         "id": 9,
@@ -150,6 +198,12 @@
         "image3": "https://i.ibb.co/mvK8PwF/colonialnyi-stil-v-interiere-pufikhomes-10.jpg",
         "Beds": 3,
         "Baths": 2,
-        "Garages": 2
+        "Garages": 2,
+        "Deposit": "12%",
+        "PoolSize": "100 Sq Ft",
+        "AdditionalRooms": "Guest Bath",
+        "LastRemodelYear": 2015,
+        "Amenities": "Clubhouse",
+        "Equipment": "Grill - Gas"
       }
 ]

@@ -1,5 +1,6 @@
 import DescriptionView from "../Components/DescriptionView";
 import DetailsProperty from "../Components/DetailsProperty";
+import PropertyFeatures from "../Components/PropertyFeatures";
 import ViewCardProperty from "../Components/ViewCardProperty";
 import ViewPropertyBanner from "../Components/ViewPropertyBanner";
 import { useLoaderData, useParams } from "react-router-dom";
@@ -13,6 +14,7 @@ const ViewProperty = () => {
             <ViewCardProperty  propertyData={propertyData}></ViewCardProperty>
             <DescriptionView propertyData={propertyData}></DescriptionView>
             <DetailsProperty propertyData={propertyData}></DetailsProperty>
+            <PropertyFeatures propertyData={propertyData}></PropertyFeatures>
         </div>
     );
 };

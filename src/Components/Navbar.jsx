@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import { toast } from 'react-toastify';
+import UserProfile from "./UserProfile";
 const Navbar = () => {
 
   const {user, logOut} = useContext(AuthContext)
@@ -51,16 +52,21 @@ const Navbar = () => {
         </li>
       }
       {
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "text-red-500 bg-red-100 p-2 rounded-md" : "p-2"
-            }
-            to="/updateProfile"
-          >
-            Update Profile
-          </NavLink>
-        </li>
+        user && 
+        <>
+        {
+          <li>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "text-red-500 bg-red-100 p-2 rounded-md" : "p-2"
+              }
+              to="/updateProfile"
+            >
+              Update Profile
+            </NavLink>
+          </li>
+        }
+        </>
       }
       {
         <li>
@@ -113,6 +119,7 @@ const Navbar = () => {
       <div className="navbar-end gap-4">
         {
           user ? <>
+          <UserProfile></UserProfile>
           <a onClick={handleSignOut} className="btn btn-error text-white font-poppins font-semibold px-6">logout</a>
           </>
           : <Link
