@@ -3,6 +3,7 @@ import {  useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import { toast } from "react-toastify";
 import 'animate.css';
+import { Helmet } from "react-helmet-async";
 
 const UpdateProfile = () => {
   const { user, updateUserProfile } = useContext(AuthContext);
@@ -27,6 +28,9 @@ const UpdateProfile = () => {
 
   return (
     <div className="hero mt-8 animate__animated animate__backInDown">
+      <Helmet>
+        <title>ResiVibe || Update Profile</title>
+      </Helmet>
       <div className="card shrink-0 shadow-2xl bg-base-100 lg:w-2/5">
         <div className="hero-content flex-col">
           <div className="text-center">

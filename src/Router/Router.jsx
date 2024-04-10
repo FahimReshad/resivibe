@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../Pages/Home";
 import MainLayout from "../MainLayout/MainLayout";
 import UpdateProfile from "../Pages/UpdateProfile";
-import UserProfile from "../Pages/UserProfile";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import ViewProperty from "../Pages/ViewProperty";
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
             {
                 path: '/updateProfile',
                 element: <PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>
-            },
-            {
-                path: '/userProfile',
-                element: <UserProfile></UserProfile>
             },
             {
                 path: '/login',

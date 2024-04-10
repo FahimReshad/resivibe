@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
+import { Helmet } from "react-helmet-async";
 const Register = () => {
   const { createUser } = useContext(AuthContext);
   const [showPassword, setShowPassword] = useState(false);
@@ -39,6 +40,9 @@ const Register = () => {
 
   return (
     <div className="hero mt-8">
+      <Helmet>
+        <title>ResiVibe || Register</title>
+      </Helmet>
       <div className="card shrink-0 shadow-2xl bg-base-100 lg:w-2/5">
         <div className="hero-content flex-col">
           <div className="text-center">

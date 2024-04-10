@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import DescriptionView from "../Components/DescriptionView";
 import DetailsProperty from "../Components/DetailsProperty";
 import PropertyFeatures from "../Components/PropertyFeatures";
@@ -10,6 +11,9 @@ const ViewProperty = () => {
     const propertyData = viewProperty.find(property => property.id == id)
     return (
         <div className="container mx-auto my-10 space-y-10">
+            <Helmet> 
+                <title>ResiVibe || View Property</title>
+            </Helmet>
             <ViewPropertyBanner propertyData={propertyData}></ViewPropertyBanner>
             <ViewCardProperty  propertyData={propertyData}></ViewCardProperty>
             <DescriptionView propertyData={propertyData}></DescriptionView>

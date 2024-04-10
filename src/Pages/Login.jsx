@@ -5,6 +5,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
 import { useForm } from "react-hook-form";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
   const { signInUser, googleSignIn, githubSignIn } = useContext(AuthContext);
@@ -66,6 +67,9 @@ const Login = () => {
 
   return (
     <div className="hero mt-8">
+      <Helmet>
+        <title>ResiVibe || Login </title>
+      </Helmet>
       <div className="card shrink-0 shadow-2xl bg-base-100 lg:w-2/5">
         <div className="hero-content flex-col">
           <div className="text-center">

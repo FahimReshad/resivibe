@@ -6,10 +6,14 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { FaWarehouse } from 'react-icons/fa6';
 
 import 'animate.css';
+import { Helmet } from 'react-helmet-async';
 
 const About = () => {
     return (
         <div className="container mx-auto my-14 animate__animated animate__bounce">
+            <Helmet>
+                <title>ResiVibe || About Us</title>
+            </Helmet>
             <div className="text-center">
                 <h2 className="text-2xl text-red-500 mb-8 font-poppins font-medium bg-gray-200 w-[25%] mx-auto rounded-md">What are you looking for?</h2>
                 <h2 className="text-3xl font-poppins font-semibold">Property In Most Popular Places</h2>
