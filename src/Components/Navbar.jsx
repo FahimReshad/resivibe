@@ -96,6 +96,23 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive ? "text-red-500 bg-red-100 p-2 rounded-md" : "p-2"
               }
+              to="/userProfile"
+            >
+              User Profile
+            </NavLink>
+          </li>
+        }
+        </>
+      }
+      {
+        user && 
+        <>
+        {
+          <li>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "text-red-500 bg-red-100 p-2 rounded-md" : "p-2"
+              }
               to="/about"
             >
               About Us
@@ -134,7 +151,7 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <NavLink to="/"><a className="btn btn-ghost font-poppins text-3xl">ResiVibe</a></NavLink>
+        <NavLink to="/"><a className="btn btn-ghost font-poppins text-xl -ml-6 md:-ml-0 md:text-3xl">ResiVibe</a></NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="flex items-center gap-8 px-1 text-lg font-poppins font-semibold">
@@ -145,11 +162,11 @@ const Navbar = () => {
         {
           user ? <>
           <UserProfile></UserProfile>
-          <a onClick={handleSignOut} className="btn btn-error text-white font-poppins font-semibold px-6">logout</a>
+          <a onClick={handleSignOut} className="btn btn-error text-white font-poppins font-semibold md:px-6">logout</a>
           </>
           : <Link
           to="/login"
-          className="btn btn-outline btn-error text-white font-poppins font-semibold px-6"
+          className="btn btn-outline btn-error text-white font-poppins font-semibold md:px-6"
         >
           Login
         </Link>

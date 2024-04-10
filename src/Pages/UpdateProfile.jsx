@@ -84,19 +84,6 @@ const UpdateProfile = () => {
                 className="input input-bordered font-poppins font-semibold text-gray-500"
               />
             </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text font-poppins font-medium">
-                  Phone Number
-                </span>
-              </label>
-              <input
-               type="tel"
-               name="phoneNumber"
-               defaultValue={user?.phoneNumber || ""}
-               className="input input-bordered font-poppins font-semibold text-gray-500"
-               />
-            </div>
             <div className="form-control mt-6 w-full">
               <button type="submit" className="btn btn-error text-lg font-semibold text-white">
                 Save Changes

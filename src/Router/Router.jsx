@@ -8,6 +8,7 @@ import ViewProperty from "../Pages/ViewProperty";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPages from "../Pages/ErrorPages";
 import About from "../Pages/About";
+import UserProfile from "../Pages/UserProfile";
 
 const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
             {
                 path: '/updateProfile',
                 element: <PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>
+            },
+            {
+                path: '/userProfile',
+                element: <PrivateRoute><UserProfile></UserProfile></PrivateRoute>
             },
             {
                 path: '/login',

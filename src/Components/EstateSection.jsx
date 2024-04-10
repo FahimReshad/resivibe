@@ -7,10 +7,11 @@ const EstateSection = ({ estateCategory }) => {
   const { id, image, price, estate_title, location, status, facilities } =
     estateCategory;
   return (
-    <div className="card bg-base-100 shadow-xl animate__animated animate__pulse">
+    <div>
+      <div className="card bg-base-100 shadow-xl animate__animated animate__pulse">
       <figure className="relative">
         <img
-          className="lg:h-[350px] w-full object-cover rounded-md"
+          className="lg:h-[350px] w-[90%] lg:w-full object-cover rounded-md"
           src={image}
           alt="Shoes"
         />
@@ -35,8 +36,8 @@ const EstateSection = ({ estateCategory }) => {
           <FaLocationDot className="text-red-500 text-xl"></FaLocationDot>{" "}
           {location}
         </p>
-        <ul className="flex gap-2 justify-center items-start font-medium md:font-semibold bg-base-200 border py-4 px-1 border-t-2 border-b-2 border-l-0 border-r-0 lg:my-4">
-          <p className="font-poppins">Facilities:</p>
+        <ul className="flex flex-col lg:flex-row gap-2 justify-center items-start font-medium md:font-semibold bg-base-200 border md:py-4 px-1 border-t-2 border-b-2 border-l-0 border-r-0 lg:my-4 w-full">
+          <p className="font-poppins mx-auto">Facilities:</p>
           {facilities.map((facility) => {
             return (
               <li className="border border-green-600 rounded-2xl w-full text-center">
@@ -52,6 +53,7 @@ const EstateSection = ({ estateCategory }) => {
           </button></Link>
         </div>
       </div>
+    </div>
     </div>
   );
 };

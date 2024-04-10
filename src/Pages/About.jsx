@@ -19,7 +19,7 @@ const About = () => {
                 <h2 className="text-2xl lg:text-3xl font-poppins font-semibold">Property In Most Popular Places</h2>
                 <p className="text-xl font-poppins my-6 lg:my-10 lg:w-1/2 mx-auto">Perched atop the hills of Beverly Hills, this sprawling mansion boasts unparalleled luxury and privacy. With sweeping views of the city below, expansive outdoor spaces, and resort-style amenities including a pool, tennis court, and home theater,</p>
             </div>
-            <div className="grid md:grid-cols-2  lg:grid-cols-3 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 p-4">
                 <div className=" card shadow-xl p-4 text-center space-y-4 border hover:bg-red-600 hover:transition hover:scale-105 hover:text-white">
                     <div className="mx-auto p-4 rounded-full bg-red-500 scale-75 w-20 h-20 flex justify-center items-center">
                     <FaWarehouse className=" text-4xl text-white"></FaWarehouse>

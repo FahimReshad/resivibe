@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-base-200 text-base-content mt-10 text-xl font-poppins font-semibold grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
-      <aside className="mt-14 col-span-2 md:col-span-1 lg:col-span-1">
+    <footer className="footer p-10 bg-base-200 text-base-content mt-10 md:text-xl font-poppins font-semibold grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
+      <aside className="md:mt-14 col-span-2 md:col-span-1 lg:col-span-1">
         <h2 className="text-3xl">ResiVibe</h2>
         <p>Providing reliable tech since 1992</p>
       </aside>
