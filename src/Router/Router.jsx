@@ -8,6 +8,7 @@ import Register from "../Pages/Register";
 import ViewProperty from "../Pages/ViewProperty";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPages from "../Pages/ErrorPages";
+import About from "../Pages/About";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
                 path: '/viewProperty/:id',
                 element: <PrivateRoute><ViewProperty></ViewProperty></PrivateRoute>,
                 loader: () => fetch('/estate.json')
+            }, 
+            {
+                path: '/about',
+                element: <PrivateRoute><About></About></PrivateRoute>
+
             }
         ]
     }

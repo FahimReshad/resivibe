@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import {  useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import { toast } from "react-toastify";
-import Result from "postcss/lib/result";
+import 'animate.css';
 
 const UpdateProfile = () => {
   const { user, updateUserProfile } = useContext(AuthContext);
@@ -16,6 +16,7 @@ const UpdateProfile = () => {
     try{
         await updateUserProfile(name, photoURL)
         toast.success('profile updated successfully')
+        navigate('/')
     }
     catch (error) {
         toast.error('please try again')
@@ -25,7 +26,7 @@ const UpdateProfile = () => {
 
 
   return (
-    <div className="hero mt-8">
+    <div className="hero mt-8 animate__animated animate__backInDown">
       <div className="card shrink-0 shadow-2xl bg-base-100 lg:w-2/5">
         <div className="hero-content flex-col">
           <div className="text-center">

@@ -4,10 +4,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-
+import 'animate.css';
 const Banner = () => {
     return (
-        <>
+        <div className='animate__animated animate__backInDown'>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -27,7 +27,7 @@ const Banner = () => {
         <SwiperSlide><img className='w-full lg:h-[550px] object-cover opacity-60' src="https://i.ibb.co/gF7wp0m/home-parallax-2.jpg" alt="" /></SwiperSlide>
         
       </Swiper>
-    </>
+    </div>
     );
 };
 

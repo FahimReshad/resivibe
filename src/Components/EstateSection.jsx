@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
+import 'animate.css';
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const EstateSection = ({ estateCategory }) => {
   const { id, image, price, estate_title, location, status, facilities } =
     estateCategory;
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-xl animate__animated animate__pulse">
       <figure className="relative">
         <img
           className="lg:h-[350px] w-full object-cover rounded-md"
