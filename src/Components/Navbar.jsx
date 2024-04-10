@@ -5,6 +5,13 @@ import { toast } from 'react-toastify';
 import UserProfile from "./UserProfile";
 const Navbar = () => {
 
+
+
+
+
+
+
+
   const {user, logOut} = useContext(AuthContext)
 
   const handleSignOut = () => {
@@ -27,30 +34,8 @@ const Navbar = () => {
           </NavLink>
         </li>
       }
-      {
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "text-red-500 bg-red-100 p-2 rounded-md" : "p-2"
-            }
-            to="/login"
-          >
-            Login
-          </NavLink>
-        </li>
-      }
-      {
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "text-red-500 bg-red-100 p-2 rounded-md" : "p-2"
-            }
-            to="/register"
-          >
-            Register
-          </NavLink>
-        </li>
-      }
+
+      
       {
         user && 
         <>
@@ -67,18 +52,6 @@ const Navbar = () => {
           </li>
         }
         </>
-      }
-      {
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "text-red-500 bg-red-100 p-2 rounded-md" : "p-2"
-            }
-            to="/userProfile"
-          >
-            User Profile
-          </NavLink>
-        </li>
       }
     </>
   );

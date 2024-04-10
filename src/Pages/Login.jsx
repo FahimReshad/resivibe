@@ -34,10 +34,10 @@ const Login = () => {
           console.log(result.user);
           navigate(from);
           toast.success("You login successfully");
+          return;
         }
       })
-      .catch((error) => console.log("password do not match", error.message));
-    toast.error("This email does not match the registered email");
+      .catch(() => toast.error("Your email and password do not match each other"))
   };
 
   const handleGoogleSignIn = () => {

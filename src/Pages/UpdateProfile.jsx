@@ -1,29 +1,28 @@
-import { useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useContext, useState } from "react";
+import {  useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
-import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
+import Result from "postcss/lib/result";
 
 const UpdateProfile = () => {
-  const { user, createUser, updateUserProfile } = useContext(AuthContext);
+  const { user, updateUserProfile } = useContext(AuthContext);
   const navigate = useNavigate();
+ const [name, setName] = useState(user.displayName || "");
+ const [photoURL, setPhotoURL] = useState(user.photoURL || "");
 
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => {
-    const { email, password, name, photoURL } = data;
+ console.log(name, photoURL)
+    const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    try{
+        await updateUserProfile(name, photoURL)
+        toast.success('profile updated successfully')
+    }
+    catch (error) {
+        toast.error('please try again')
+        console.log(error)
+    }
+  }
 
-    createUser(email, password).then(() => {
-      updateUserProfile(name, photoURL).then(() => {
-        navigate("/");
-        toast.success("Registration successfully");
-        console.log(email);
-      });
-    });
-  };
 
   return (
     <div className="hero mt-8">
@@ -34,8 +33,8 @@ const UpdateProfile = () => {
               My Account!
             </h1>
           </div>
-          <form
-            onSubmit={handleSubmit(onSubmit)}
+          <form onSubmit={handleFormSubmit}
+            
             className="-mt-10 card-body w-full"
           >
             <div className="form-control">
@@ -44,9 +43,10 @@ const UpdateProfile = () => {
                   Name
                 </span>
               </label>
-              <input
+              <input 
                 type="text"
-                value={user.displayName}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 name="name"
                 className="input input-bordered font-poppins font-semibold text-gray-500"
               />
@@ -59,7 +59,8 @@ const UpdateProfile = () => {
               </label>
               <input
                 type="text"
-                value={user.photoURL}
+                value={photoURL}
+                onChange={(e) => setPhotoURL(e.target.value)}
                 name="photoURL"
                 placeholder=""
                 className="input input-bordered font-poppins font-semibold text-gray-500"
@@ -73,7 +74,7 @@ const UpdateProfile = () => {
               </label>
               <input
                 type="email"
-                value={user.email}
+                defaultValue={user?.email || ""}
                 name="email"
                 className="input input-bordered font-poppins font-semibold text-gray-500"
               />
@@ -87,12 +88,12 @@ const UpdateProfile = () => {
               <input
                type="tel"
                name="phoneNumber"
-               value={user?.phoneNumber || "No phone number"}
+               defaultValue={user?.phoneNumber || ""}
                className="input input-bordered font-poppins font-semibold text-gray-500"
                />
             </div>
             <div className="form-control mt-6 w-full">
-              <button className="btn btn-error text-lg font-semibold text-white">
+              <button type="submit" className="btn btn-error text-lg font-semibold text-white">
                 Save Changes
               </button>
             </div>

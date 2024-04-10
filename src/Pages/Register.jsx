@@ -6,7 +6,6 @@ import { toast } from 'react-toastify';
 const Register = () => {
   const { createUser } = useContext(AuthContext);
   const navigate = useNavigate();
-
   const {
     register,
     handleSubmit,
@@ -35,14 +34,7 @@ const Register = () => {
     })
   };
 
-  // const handleRegister = e => {
-  //   e.preventDefault();
-  //   const name = e.target.name.value;
-  //   const photoURL = e.target.photoURL.value;
-  //   const email = e.target.email.value;
-  //   const password = e.target.password.value;
-  //   console.log(name, photoURL, email, password)
-  // }
+  
 
   return (
     <div className="hero mt-8">
