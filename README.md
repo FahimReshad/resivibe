@@ -24,7 +24,7 @@ Version Control: Git, GitHub
 
 ## Steps to Set Up Locally
 #### Clone the Repository:
-git clone https://github.com/your-username/resivibe.git
+git clone https://github.com/FahimReshad/resivibe.git
 
 cd resivibe
 
